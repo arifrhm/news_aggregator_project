@@ -19,7 +19,7 @@ Django News Aggregator is a web application that gathers news articles from vari
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/django-news-aggregator.git`
+1. Clone the repository: `git clone https://github.com/arifrhm/news_aggregator_project.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Apply migrations: `python manage.py migrate`
 4. Run the development server: `python manage.py runserver`
