@@ -1,0 +1,65 @@
+<!-- news_aggregator/templates/news_aggregator/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        .article {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+        .article img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .article p {
+            margin-bottom: 8px;
+        }
+
+        .article-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .article-details {
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <h1>News Aggregator</h1>
+    {% for article in articles %}
+        <div class="article">
+            <div class="article-title">{{ article.title }}</div>
+            <img align="left" border="0" src="{{ article.image_url }}" alt="{{ article.title }}">
+            <p>{{ article.content }}</p>
+            <p>Category: {{ article.category }}</p>
+            <p>Cluster Label: {{ article.cluster_label }}</p>
+            <p>Source Rating: {{ article.source_rating }}</p>
+            <p>Publication Date: {{ article.pub_date }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

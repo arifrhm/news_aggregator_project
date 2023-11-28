@@ -1,0 +1,266 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+local_settings.py
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Compiled Java classes
+*.class
+
+# Compiled Kotlin files and folders
+*.kotlin_module
+
+# Temporary files
+*~
+
+# User-specific files
+*.rsuser
+*.rsuser.sh
+*.rscode
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# SageMath parsed files
+*.sage.py
+
+# Ctags
+tags
+
+# Visual Studio Code directories
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# Sublime Text directories
+.svn/
+.cache/
+.DS_Store
+Desktop.ini
+.vscode/
+*.sublime-workspace
+
+# TextMate
+*.tmproj
+tmtags
+
+# Node.js
+node_modules/
+logs
+*.log
+
+# Yarn
+.yarn-integrity
+
+# npm
+/node_modules
+/npm-debug.log
+
+# Gradle
+.gradle/
+/build/
+
+# Android
+/gradlew
+/gradle-wrapper.properties
+
+# Compiled class file
+*.class
+
+# Compiled JAR files
+*.jar
+
+# Temporary files
+*.tmp
+
+# Package files
+*.war
+*.ear
+*.nar
+*.jar
+
+# Maven
+/target/
+.mvn/
+
+# Log files
+*.log
+
+# BlueJ files
+.bluej
+
+# ESLint cache
+.eslintcache
+
+# Jekyll
+_site/
+.sass-cache/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Unity
+Temp/
+Library/
+Logs/
+Obj/
+Builds/
+*.class
+
+# Visual Studio Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
